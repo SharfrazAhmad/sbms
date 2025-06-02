@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 32-Spring-YMLReading-app-1
+
+
+ashokit:
+  messages:
+    welcome: "welcome to ashokit"
+    greet: "good morning"
+    wish: "all the best"

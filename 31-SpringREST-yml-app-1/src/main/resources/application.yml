@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: 31-SpringREST-yml-app-1
+welcome:
+  msg: welcome home

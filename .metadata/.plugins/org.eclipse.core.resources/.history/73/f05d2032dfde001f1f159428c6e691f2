@@ -1,0 +1,17 @@
+package in.ashokit.client;
+
+import org.springframework.boot.autoconfigure.security.oauth2.server.servlet.OAuth2AuthorizationServerProperties.Client;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import in.ashokit.binding.Book;
+
+public class BookClient {
+
+	public void invokeSaveBook() {
+		Book book = new Book(101, "Angular", 100);
+		
+		String apiUrl="https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&format=json&jscmd=data";
+		WebClient webClient = WebClient.create();
+		
+	}
+}

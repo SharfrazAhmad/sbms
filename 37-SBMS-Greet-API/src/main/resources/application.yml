@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: 37-SBMS-Greet-API
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:1111/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+
+server:
+  port: 9091

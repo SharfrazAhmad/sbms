@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="165"/>
+		<item key="DIALOG_Y_ORIGIN" value="374"/>
+	</section>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<item key="selection" value="id"/>
+		<list key="findhistory">
+			<item value="success"/>
+			<item value="id"/>
+			<item value="login"/>
+			<item value="excel"/>
+			<item value="lom"/>
+			<item value="lam"/>
+		</list>
+	</section>
+</section>

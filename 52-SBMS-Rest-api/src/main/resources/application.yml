@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: 52-SBMS-Rest-api
+
+app:
+  messages:
+    wmsg: Welcome again
+    gmsg: Hello G

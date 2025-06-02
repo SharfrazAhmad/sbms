@@ -1,0 +1,16 @@
+package in.ashokit.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.ashokit.repository.userRepository;
+import lombok.Data;
+
+@Service
+@Data
+public class UserService {
+
+	@Autowired
+	private final userRepository userRepository;
+	
+}

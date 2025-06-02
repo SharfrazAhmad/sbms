@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;40-SBMS-Shop-Project/Public&apos; to &apos;public&apos;" description="Rename resource &apos;Public&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Public" name="public" stamp="1742200796993" updateReferences="true"/>
+</session>

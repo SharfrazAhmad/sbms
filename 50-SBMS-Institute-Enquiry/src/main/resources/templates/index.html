@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashok IT Clone - Spring Boot Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .navbar-brand span {
+      color: #ff5722;
+      font-weight: bold;
+    }
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 1rem;
+    }
+    .course-img {
+      max-height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href=""><span>ASHOK IT</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+        <a class="btn btn-danger" href="login">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner Carousel -->
+  <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cryodragon.ca/wp-content/uploads/2017/11/CryoDragon-Slider-Arctic-Background-with-Water-3000w-1200x400.jpg" class="d-block w-100" alt="Spring Boot Training">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Spring Boot & Microservices</h3>
+          <p>Online Training Available - Learn from Experts!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cryodragon.ca/wp-content/uploads/2017/11/CryoDragon-Slider-Arctic-Background-with-Water-3000w-1200x400.jpg" class="d-block w-100" alt="Boost Career">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Boost Your IT Career</h3>
+          <p>Top trending technologies with real-time projects</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Trending Courses -->
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Trending Courses</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-6 col-md-3 text-center">
+        <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" alt="AWS" class="img-fluid course-img">
+        <p>AWS</p>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/1183/1183672.png" alt="React" class="img-fluid course-img">
+        <p>React</p>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Spring Boot" class="img-fluid course-img">
+        <p>Spring Boot & Microservices</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <p class="mb-0">&copy; 2023 Copyright: <a href="#">@Ashok IT</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
